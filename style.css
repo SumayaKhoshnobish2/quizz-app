@@ -1,0 +1,162 @@
+/*body{
+	padding: 0;
+	margin: 0;
+	width:100vw;
+	height: 100vh;
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	background-color: #c7dddf;
+	font-size: x-large;
+	text-align: center;
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: #9eb1b3;
+	
+}
+.option{
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: lightskyblue;
+	border-radius: 25%;
+}
+.option:hover{
+	background-color: lightgoldenrodyellow;
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:#c7dddf;
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.evaluate{
+
+	background-color: #50DBB4;
+}
+.next{
+	color: white;
+	background-color: #BF3325;
+}*/
+
+
+
+/* Add these styles to your style.css file */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("cat.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.panel {
+    max-width: 600px;
+    background-color: #870c0c;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.result {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.question-container {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.option-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.option {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1d8e11;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    color: #333;
+}
+
+.option:hover {
+    background-color: #ee09e6;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.evaluate,
+.next {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.evaluate:hover,
+.next:hover {
+    background-color: #0056b3;
+}
